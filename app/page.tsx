@@ -128,6 +128,14 @@ export default function FuentesEnergia() {
             })}
           </div>
         </div>
+        <div className='relative container mx-auto text-center'>
+          <Card>
+          <CardHeader>
+            <h1 className="text-1xl md:text-4xl lg:text-4xl font-bold mb-2 md:mb-4 text-black">Responde mi encuesta aqui abajo:</h1>
+            <iframe className='relative container mx-auto text-center' src="https://docs.google.com/forms/d/e/1FAIpQLSfCf5jUug24_vo2K8fZ2nnJ0C2Jx4mLXM-i-g3tvrbLWGkxuA/viewform?embedded=true" width="640" height="414" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+          </CardHeader>
+          </Card>
+        </div>
       </section>
 
       <EnergiaDialog 
